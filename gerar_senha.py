@@ -8,8 +8,8 @@ from cryptography.hazmat.backends import default_backend
 
 # A chave mestra que você forneceu
 CHAVE_MESTRA = "TESTERPA"
-SENHA_APP = 'PcoqYjedlMqDPeCimMnH'
-SENHA_EMAIL = '8VD3ukuk@@'
+SENHA_APP = 'SENHA_APP'
+SENHA_EMAIL = 'SENHA_EMAIL'
 
 
 def derivar_chave(salt, chave_mestra):
